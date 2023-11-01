@@ -1,0 +1,1 @@
+project_feed_shrimp\startup_stm32l151xc.o: startup_stm32l151xc.s

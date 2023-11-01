@@ -1,0 +1,32 @@
+/* 
+    @brief Calculator Crc 2 byte use Crc Modbus RTU
+*/
+CRC ban đầu bằng 0. Tính 2 byte CRC của file sau khi download nạp vào flash
+uint8_t Calculator_Crc_U16(uint16_t *crc, uint8_t* buf, uint16_t len)
+{
+  for (int pos = 0; pos < len; pos++) 
+  {
+    *crc ^= (uint16_t)buf[pos];          
+  
+    for (int i = 8; i != 0; i--) {   
+      if ((*crc & 0x0001) != 0) {      
+        *crc >>= 1;                   
+        *crc ^= 0xA001;
+      }
+      else                           
+        *crc >>= 1;                  
+    }
+  }
+  return 1;  
+}
+
+/*
+    @brief Calculator Crc 1 byte use XOR
+*/
+CRC ban đầu bằng 0. Tính 1 byte CRC của sector lưu kích thước và trạng thái cần nạp firmware trong exFlash
+uint8_t Calculator_Crc_U8(uint8_t *crc, uint8_t* buf, uint16_t len)
+{
+    for (uint8_t i = 0; i < len; i++)
+        *crc ^= buf[i];
+    return 1;
+}
