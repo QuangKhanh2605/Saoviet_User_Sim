@@ -12,7 +12,7 @@
         <ByteLimit>50</ByteLimit>
     </Stack>
     <StLinkDriver>
-        <stlinkserialNo>49170881</stlinkserialNo>
+        <stlinkserialNo>31531457</stlinkserialNo>
         <stlinkfoundProbes />
         <stlinkResetStyle>0</stlinkResetStyle>
         <stlinkResetStrategy>2</stlinkResetStrategy>
@@ -20,7 +20,7 @@
         <LeaveTargetRunning>_ 0</LeaveTargetRunning>
     </StLinkDriver>
     <DebugChecksum>
-        <Checksum>1706425611</Checksum>
+        <Checksum>1911403652</Checksum>
     </DebugChecksum>
     <Exceptions>
         <StopOnUncaught>_ 0</StopOnUncaught>
@@ -130,7 +130,12 @@
         <Count>0</Count>
     </Breakpoints2>
     <Aliases>
-        <Count>0</Count>
+        <A0>_ "E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\Core\Src\stm32l1xx_it.c" ""</A0>
+        <A1>_ "E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal.c" ""</A1>
+        <A2>_ "E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash.c" ""</A2>
+        <A3>_ "E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_flash_ex.c" ""</A3>
+        <A4>_ "E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\Drivers\STM32L1xx_HAL_Driver\Src\stm32l1xx_hal_gpio.c" ""</A4>
+        <Count>5</Count>
         <SuppressDialog>0</SuppressDialog>
     </Aliases>
 </settings>

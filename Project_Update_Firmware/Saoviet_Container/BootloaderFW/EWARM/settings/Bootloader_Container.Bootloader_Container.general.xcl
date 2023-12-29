@@ -2,7 +2,7 @@
 
 "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\bin\armstlink2.dll" 
 
-"D:\Project_STM32\Bootloader_Container\EWARM\Bootloader_Container\Exe\Bootloader_Container.out" 
+"D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\BootloaderFW\EWARM\Bootloader_Container\Exe\Bootloader_Container.out" 
 
 --plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\bin\armbat.dll" 
 

@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\Project_STM32\Bootloader_Container\EWARM\settings\Bootloader_Container.Bootloader_Container.general.xcl" --backend -f "D:\Project_STM32\Bootloader_Container\EWARM\settings\Bootloader_Container.Bootloader_Container.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\BootloaderFW\EWARM\settings\Bootloader_Container.Bootloader_Container.general.xcl" --backend -f "D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\BootloaderFW\EWARM\settings\Bootloader_Container.Bootloader_Container.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\Project_STM32\Bootloader_Container\EWARM\settings\Bootloader_Container.Bootloader_Container.general.xcl" "--debug_file=%~1" --backend -f "D:\Project_STM32\Bootloader_Container\EWARM\settings\Bootloader_Container.Bootloader_Container.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\BootloaderFW\EWARM\settings\Bootloader_Container.Bootloader_Container.general.xcl" "--debug_file=%~1" --backend -f "D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\BootloaderFW\EWARM\settings\Bootloader_Container.Bootloader_Container.driver.xcl" 
 
 @echo off 
 :end

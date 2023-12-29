@@ -70,7 +70,7 @@
 /*=========== define cho chip L151 ==================*/
 
 #if defined (STM32L151xC) 
-    #define	ADDR_MAIN_PROGRAM			0x08004000	        //43 Page cho chuong trinh chinh
+    #define	ADDR_MAIN_PROGRAM			0x08002C00	        //43 Page cho chuong trinh chinh
     #define	ADDR_UPDATE_PROGRAM			0x08019800	        //43 page -> End Program = 0x0802F000
 
     #define ADDR_FLAG_HAVE_NEW_FW       0x08030000

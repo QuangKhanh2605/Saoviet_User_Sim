@@ -1,44 +1,44 @@
 ###############################################################################
 #
-# IAR ELF Linker V8.40.2.214/W32 for ARM                  16/Mar/2023  15:22:17
+# IAR ELF Linker V8.40.2.214/W32 for ARM                  07/Nov/2023  11:20:42
 # Copyright 2007-2019 IAR Systems AB.
 #
 #    Output file  =
-#        E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\EWARM\Firmware\Exe\Firmware.out
+#        D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\CodeBootLoader_L151\EWARM\Firmware\Exe\Firmware.out
 #    Map file     =
-#        E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\EWARM\Firmware\List\Firmware.map
+#        D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\CodeBootLoader_L151\EWARM\Firmware\List\Firmware.map
 #    Command line =
-#        -f C:\Users\chien\AppData\Local\Temp\EW373.tmp
-#        (E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\EWARM\Firmware\Obj\gpio.o
-#        E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\EWARM\Firmware\Obj\main.o
-#        E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\EWARM\Firmware\Obj\onchipflash.o
-#        E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\EWARM\Firmware\Obj\startup_stm32l151xc.o
-#        E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_hal.o
-#        E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_hal_cortex.o
-#        E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_hal_dma.o
-#        E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_hal_exti.o
-#        E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_hal_flash.o
-#        E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_hal_flash_ex.o
-#        E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_hal_flash_ramfunc.o
-#        E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_hal_gpio.o
-#        E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_hal_msp.o
-#        E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_hal_pwr.o
-#        E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_hal_pwr_ex.o
-#        E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_hal_rcc.o
-#        E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_hal_rcc_ex.o
-#        E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_hal_tim.o
-#        E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_hal_tim_ex.o
-#        E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_it.o
-#        E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\EWARM\Firmware\Obj\system_stm32l1xx.o
-#        E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\EWARM\Firmware\Obj\user_manage_onflash.o
-#        E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\EWARM\Firmware\Obj\user_util.o
+#        -f C:\Users\PC\AppData\Local\Temp\EW5AD5.tmp
+#        (D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\CodeBootLoader_L151\EWARM\Firmware\Obj\gpio.o
+#        D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\CodeBootLoader_L151\EWARM\Firmware\Obj\main.o
+#        D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\CodeBootLoader_L151\EWARM\Firmware\Obj\onchipflash.o
+#        D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\CodeBootLoader_L151\EWARM\Firmware\Obj\startup_stm32l151xc.o
+#        D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_hal.o
+#        D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_hal_cortex.o
+#        D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_hal_dma.o
+#        D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_hal_exti.o
+#        D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_hal_flash.o
+#        D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_hal_flash_ex.o
+#        D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_hal_flash_ramfunc.o
+#        D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_hal_gpio.o
+#        D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_hal_msp.o
+#        D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_hal_pwr.o
+#        D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_hal_pwr_ex.o
+#        D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_hal_rcc.o
+#        D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_hal_rcc_ex.o
+#        D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_hal_tim.o
+#        D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_hal_tim_ex.o
+#        D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\CodeBootLoader_L151\EWARM\Firmware\Obj\stm32l1xx_it.o
+#        D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\CodeBootLoader_L151\EWARM\Firmware\Obj\system_stm32l1xx.o
+#        D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\CodeBootLoader_L151\EWARM\Firmware\Obj\user_manage_onflash.o
+#        D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\CodeBootLoader_L151\EWARM\Firmware\Obj\user_util.o
 #        --no_out_extension -o
-#        E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\EWARM\Firmware\Exe\Firmware.out
+#        D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\CodeBootLoader_L151\EWARM\Firmware\Exe\Firmware.out
 #        --redirect _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
 #        --map
-#        E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\EWARM\Firmware\List\Firmware.map
+#        D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\CodeBootLoader_L151\EWARM\Firmware\List\Firmware.map
 #        --config
-#        E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\EWARM/stm32l151xc_flash.icf
+#        D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\CodeBootLoader_L151\EWARM/stm32l151xc_flash.icf
 #        --semihosting --entry __iar_program_start --vfe --text_out locale)
 #
 ###############################################################################
@@ -218,7 +218,7 @@ command line/config:
     ---------------------------------------------------
     Total:
 
-E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\EWARM\Firmware\Obj: [1]
+D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\CodeBootLoader_L151\EWARM\Firmware\Obj: [1]
     gpio.o                        148
     main.o                        268        4       16
     onchipflash.o                 226
@@ -361,7 +361,7 @@ uwTickFreq              0x2000'0004    0x4  Data  Gb  stm32l1xx_hal.o [1]
 uwTickPrio              0x2000'0000    0x4  Data  Gb  stm32l1xx_hal.o [1]
 
 
-[1] = E:\6.2022_Quy3_4\6.Do_Cos_Phi\CodeBootLoader_L151\EWARM\Firmware\Obj
+[1] = D:\Saoviet_Git\Saoviet_User_Sim\Project_Update_Firmware\Saoviet_Container\CodeBootLoader_L151\EWARM\Firmware\Obj
 [2] = dl7M_tln.a
 [3] = m7M_tl.a
 [4] = rt7M_tl.a
